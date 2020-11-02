@@ -1,0 +1,81 @@
+body{
+  background-image: url(../img/dark-grass.jpeg);
+  background-size: 10vh;
+  background-position: center;
+  background-repeat: repeat;
+  width: 60vh;
+  min-width: 500px;
+  margin: auto;
+}
+
+
+#puntiLeft, #puntiRight{
+  background-color: brown;
+  color: red;
+
+}
+
+body .container:first-child .row:first-child  div{
+  background-color: darkgrey;
+  height: 40px;
+  margin-top: 5vh;
+  border-top: 3px solid grey;
+  border-left:  3px solid grey;
+  border-right:  3px solid grey;
+}
+
+body .container:first-child > div:nth-child(2){
+  background-color: lightgrey;
+  font-family: 'Press Start 2P';
+  height: 120px;
+  border: grey solid 3px;
+}
+
+.emoji{
+  font-size: 3rem;
+}
+
+.grid{
+  margin-top: 20px;
+  height: 60vh;
+  min-height: 500px;
+}
+
+[class*="sq_"]{
+  color: lightgrey;
+  border: 1px solid lightgrey;
+  background-size: cover;
+  background-position: center;
+}
+
+[class*="sq_"]:hover{
+  background-color: white;
+  opacity: 0.3;
+}
+.sq_100{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.sq_81{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.sq_49{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+.image{
+  width: 300px;
+  height: 300px;
+}
+.medal{
+  background-image: url(../images/medal.png);
+  background-size: contain;
+}
+.bomb{
+  background-image: url(../images/bomb.png);
+  background-size: contain;
+}
